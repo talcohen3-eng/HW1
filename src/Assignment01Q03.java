@@ -3,10 +3,6 @@ public class Assignment01Q03 {
         int x = Integer.parseInt(args[0]);
         System.out.println("The first " + x + " Fibonacci numbers are:");
 
-        ////////////////////////////////////////////////////////////////
-        // TODO: Replace this code with the correct Fibonacci sequence
-        ////////////////////////////////////////////////////////////////
-        /// ...
         int[] fib_array = new int[x];
         fib_array[0] = 1;
         fib_array[1] = 1;
