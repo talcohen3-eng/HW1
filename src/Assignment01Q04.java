@@ -18,6 +18,7 @@ public class Assignment01Q04 {
                 direction = 'L';
             }
         }
+        move = move%array.length;
         for (int i = 1; i <= move; i++) {
             array = ShiftArrayOnce(array, direction);
         }
